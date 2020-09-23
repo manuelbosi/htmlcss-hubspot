@@ -1,5 +1,82 @@
+/* REGOLE GENERALI */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.w80 {
+  width: 75%;
+  margin: 0 auto;
+  /* debug */
+  /* background-color: green; */
+
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.fas {
+  margin: 0 5px;
+}
+.fa-search {
+  color: #00b5e2;
+}
+a {
+  text-decoration: none;
+  color: #33475B;
+}
+.orange-white-btn {
+  background-color: #ff7a59;
+  padding: 10px;
+  border: 2px solid #ff7a59;
+  color: white;
+  border-radius: 10px;
+}
+.white-orange-btn {
+  background-color: ;
+  padding: 10px;
+  border: 2px solid #ff7a59;
+  color: #ff7a59;
+  border-radius: 10px;
+}
+/* INIZIO HEADER */
+header {
+  height: 100vh;
+  background-color: red;
+
+}
+.header-top {
+  position: relative;
+  background-color: #F4F9FD;
+  border-bottom: 2px solid #33475B;
+  font-weight: bold;
+
+  /* debug */
+
+}
+.header-top > div {
+  line-height: 10vh;
+}
+.left-button{
+  float: left;
+}
+.right-button{
+  float: right;
+}
+
+.left-button ul li,
+.right-button ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+
+header nav {
+
+
+  /* debug */
+  height: 10vh;
+  background-color: yellow;
 }
