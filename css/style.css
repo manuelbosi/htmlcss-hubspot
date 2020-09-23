@@ -4,27 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #33475B;
+}
 .w80 {
   width: 75%;
   margin: 0 auto;
   /* debug */
   /* background-color: green; */
-
 }
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
-}
-.fas {
-  margin: 0 5px;
-}
-.fa-search {
-  color: #00b5e2;
-}
-a {
-  text-decoration: none;
-  color: #33475B;
 }
 .orange-white-btn {
   background-color: #ff7a59;
@@ -40,20 +34,25 @@ a {
   color: #ff7a59;
   border-radius: 10px;
 }
+
+/* STILE ICONE */
+.fas {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.fa-search {
+  color: #00b5e2;
+}
+
 /* INIZIO HEADER */
 header {
-  height: 100vh;
-  background-color: red;
-
+  /* debug */
+  /* background-color: red; */
 }
 .header-top {
-  position: relative;
-  background-color: #F4F9FD;
+  height: 10vh;
+  /* background-color: #F4F9FD; */
   border-bottom: 2px solid #33475B;
-  font-weight: bold;
-
-  /* debug */
-
 }
 .header-top > div {
   line-height: 10vh;
@@ -68,15 +67,40 @@ header {
 .left-button ul li,
 .right-button ul li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 
-
-header nav {
-
+/* INIZIO LOGO - NAVBAR */
+.logo-navbar {
 
   /* debug */
   height: 10vh;
-  background-color: yellow;
+  /* background-color: white; */
+  border: 2px solid black;
+}
+.logo-navbar div {
+  line-height: 10vh;
+
+  /* debug */
+  /* background-color: blue; */
+}
+.logo {
+  float: left;
+}
+.logo > img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+.logo-navbar nav {
+  float: right;
+}
+.logo-navbar nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.header-jumbotron {
+  height: 80vh;
+  background-color: blue;
 }
