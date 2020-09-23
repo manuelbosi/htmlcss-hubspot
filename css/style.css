@@ -51,7 +51,7 @@ header {
 }
 .header-top {
   height: 10vh;
-  /* background-color: #F4F9FD; */
+  background-color: #F4F9FD;
   border-bottom: 2px solid #33475B;
 }
 .header-top > div {
@@ -73,17 +73,13 @@ header {
 
 /* INIZIO LOGO - NAVBAR */
 .logo-navbar {
+  height: 10vh;
 
   /* debug */
-  height: 10vh;
   /* background-color: white; */
-  border: 2px solid black;
 }
 .logo-navbar div {
   line-height: 10vh;
-
-  /* debug */
-  /* background-color: blue; */
 }
 .logo {
   float: left;
@@ -102,5 +98,7 @@ header {
 
 .header-jumbotron {
   height: 80vh;
-  background-color: blue;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
