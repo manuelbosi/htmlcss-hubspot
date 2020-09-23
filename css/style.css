@@ -2,17 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #33475B;
+  color: #334a5b;
 }
 .w80 {
   width: 75%;
   margin: 0 auto;
+
   /* debug */
+  /* border: 1px solid red; */
   /* background-color: green; */
 }
 .clearfix::after {
@@ -23,15 +25,15 @@ a {
 .orange-white-btn {
   padding: 10px;
   color: white;
-  border-radius: 10px;
-  background-color: #ff7a59;
-  border: 2px solid #ff7a59;
+  border-radius: 5px;
+  background-color: #fe775a;
+  border: 2px solid #fe775a;
 }
 .white-orange-btn {
   background-color: ;
   padding: 10px;
-  border: 2px solid #ff7a59;
-  color: #ff7a59;
+  border: 2px solid #fe775a;
+  color: #fe775a;
   border-radius: 10px;
 }
 
@@ -44,15 +46,11 @@ a {
   color: #00b5e2;
 }
 
-/* INIZIO HEADER */
-header {
-  /* debug */
-  /* background-color: red; */
-}
+/* HEADER */
 .header-top {
   height: 10vh;
   background-color: #F4F9FD;
-  border-bottom: 2px solid #33475B;
+  border-bottom: 1px solid #33475B;
 }
 .header-top > div {
   line-height: 10vh;
@@ -71,7 +69,7 @@ header {
 }
 
 
-/* INIZIO LOGO - NAVBAR */
+/* LOGO - NAVBAR */
 .logo-navbar {
   height: 10vh;
 
@@ -86,7 +84,6 @@ header {
 }
 .logo > img {
   vertical-align: middle;
-  max-width: 100%;
 }
 .logo-navbar nav {
   float: right;
@@ -96,9 +93,47 @@ header {
   margin-right: 15px;
 }
 
+/* JUMBOTRON */
 .header-jumbotron {
+  /* E' L'UNICO MODO DARE UN'ALTEZZA???? */
   height: 100vh;
+  position: relative;
   background-image: url("../img/jumbotron.png");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.header-jumbotron .cta-section {
+  width: 40%;
+  position: relative;
+  top: 100px;
+}
+.cta-section > h1 {
+  font-size: 50px;
+  color: #334a5b;
+}
+.cta-section > p {
+  margin: 40px auto;
+}
+.cta-section > a {
+  text-align: center;
+  padding: 15px;
+}
+.cta-section > span {
+  display: block;
+  margin-top: 50px;
+}
+
+/* MAIN */
+#crm-section {
+  background-color: #f4f9fd;
+}
+#crm-section .w80 {
+  height: 700px;
+  background-color: red;
+}
+#crm-section .w80 > section {
+  height: 200px;
+  background-color: yellow;
+  border: 1px solid black;
 }
