@@ -21,11 +21,11 @@ a {
   clear: both;
 }
 .orange-white-btn {
-  background-color: #ff7a59;
   padding: 10px;
-  border: 2px solid #ff7a59;
   color: white;
   border-radius: 10px;
+  background-color: #ff7a59;
+  border: 2px solid #ff7a59;
 }
 .white-orange-btn {
   background-color: ;
@@ -97,7 +97,7 @@ header {
 }
 
 .header-jumbotron {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-size: cover;
