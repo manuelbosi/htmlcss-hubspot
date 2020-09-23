@@ -9,6 +9,13 @@ a {
   font-weight: bold;
   color: #334a5b;
 }
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #334a5b;
+}
+p {
+  color: #334a5b;
+}
 .w80 {
   width: 75%;
   margin: 0 auto;
@@ -95,7 +102,7 @@ a {
 
 /* JUMBOTRON */
 .header-jumbotron {
-  /* E' L'UNICO MODO DARE UN'ALTEZZA???? */
+  /* E' L'UNICO MODO DARE UN'ALTEZZA QUANDO SI HA IMG COME BG DI UN DIV???? */
   height: 100vh;
   position: relative;
   background-image: url("../img/jumbotron.png");
@@ -104,13 +111,13 @@ a {
   background-size: cover;
 }
 .header-jumbotron .cta-section {
-  width: 40%;
+  min-width: 40%;
+  max-width: 40%;
   position: relative;
   top: 100px;
 }
 .cta-section > h1 {
   font-size: 50px;
-  color: #334a5b;
 }
 .cta-section > p {
   margin: 40px auto;
@@ -132,8 +139,24 @@ a {
   height: 700px;
   background-color: red;
 }
-#crm-section .w80 > section {
-  height: 200px;
+#crm-section section {
+
+  /* debug */
+  /* height: 200px; */
   background-color: yellow;
   border: 1px solid black;
+}
+#crm-section section:first-child {
+  text-align: center;
+}
+#crm-section .w80 > section > img {
+  margin: 30px auto 10px;
+  width: 20%;
+}
+#crm-section .top h1 {
+  font-size: 30px;
+}
+#crm-section .top p {
+  width: 60%;
+  margin: 20px auto 60px;
 }
