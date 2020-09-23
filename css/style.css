@@ -49,7 +49,7 @@ span {
 .white-box {
   position: relative;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 50px 0;
   /* debug */
   /* height: 250px; */
@@ -152,9 +152,9 @@ span {
   background-color: #f4f9fd;
 }
 #crm-section .w80 {
-  min-height: 1000px;
 
   /* debug */
+  min-height: 1000px;
   /* background-color: red; */
 }
 #crm-section section {
@@ -259,4 +259,35 @@ span {
 }
 #feature-check span{
   margin-right: 20px;
+}
+
+/* CRM CARD */
+#crm-card {
+
+  /* debug */
+  height: 700px;
+  background-color: purple;
+}
+
+#crm-card .card {
+  float: left;
+  margin: 0 30px;
+  padding: 5px;
+  text-align: center;
+  /* debug */
+  width: calc((100% / 3) - 60px);
+  /* background-color: blue; */
+}
+#crm-card .card .top {
+  margin: 0 auto;
+  /* debug */
+  /* background-color: yellow; */
+}
+.card-logo {
+  width: 30%;
+  margin: 20px auto;
+
+}
+#crm-card .card .top img {
+  max-width: 100%;
 }
