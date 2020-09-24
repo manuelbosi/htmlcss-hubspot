@@ -410,6 +410,43 @@ div.orange-white-btn a {
 #start-growing-woman {
 
   /* debug */
-  background-color: RED;
+  background-color: red;
   height: 400px;
+}
+#customers {
+  /* debug */
+  /* height: 300px; */
+  background-color: yellow;
+}
+#customers-number, #customers-logo {
+  float: left;
+  margin: 40px 0;
+  padding: 5px;
+}
+#customers-number {
+  width: 30%;
+  /* debug */
+  /* height: 100px; */
+  background-color: purple;
+}
+#customers-number .text {
+  width: 60%;
+  margin: 0 auto;
+}
+#customers-number h1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+#customers-number span {
+  font-size: 14px;
+}
+#customers-logo {
+  width: 70%;
+
+  /* debug */
+  height: 100px;
+  background-color: green;
+}
+.text, .right-logo {
+
 }
