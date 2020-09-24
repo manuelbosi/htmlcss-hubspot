@@ -407,27 +407,27 @@ div.orange-white-btn a {
 }
 
 /* START GROWING - WOMAN */
-#start-growing-woman {
+#growing-today {
 
   /* debug */
-  background-color: red;
-  height: 400px;
+  /* background-color: red; */
+  /* height: 600px; */
 }
 #customers {
   /* debug */
   /* height: 300px; */
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 #customers-number, #customers-logo {
   float: left;
-  margin: 40px 0;
+  margin: 30px 0 10px;
   padding: 5px;
 }
 #customers-number {
   width: 30%;
   /* debug */
   /* height: 100px; */
-  background-color: purple;
+  /* background-color: purple; */
 }
 #customers-number .text {
   width: 60%;
@@ -442,11 +442,46 @@ div.orange-white-btn a {
 }
 #customers-logo {
   width: 70%;
-
+  padding: 5px;
   /* debug */
-  height: 100px;
-  background-color: green;
+  /* height: 100px; */
+  /* background-color: green; */
 }
-.text, .right-logo {
 
+#customers-logo .logo {
+  width: calc((100% / 4) - 20px) ;
+  display: inline-block;
+  margin: 0 10px;
+  /* debug */
+  /* background-color: red; */
+}
+#customers-logo .logo > img {
+  width: 100%;
+}
+
+#start-growing-woman {
+  /* background-color: green; */
+}
+#start-growing-woman .cta-section, .woman {
+  float: left;
+  padding: 20px;
+  margin: 0 0 30px;
+  border: 1px solid black;
+}
+#start-growing-woman .cta-section {
+  width: 40%;
+}
+#start-growing-woman .cta-section h1 {
+  font-size: 30px;
+}
+#start-growing-woman .cta-section a {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+#start-growing-woman .woman {
+  width: 60%;
+  text-align: right;
+}
+#start-growing-woman .woman > img {
+  width: 35%;
 }
