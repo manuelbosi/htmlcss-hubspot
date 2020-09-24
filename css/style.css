@@ -139,12 +139,13 @@ div.orange-white-btn a {
   width: 45%;
   position: relative;
   top: 60px;
+  left: 0;
 }
 .cta-section > h1 {
   font-size: 50px;
 }
 .cta-section > p {
-  margin: 40px auto;
+  margin: 25px auto 35px;
 }
 .cta-section > a {
   text-align: center;
@@ -152,7 +153,7 @@ div.orange-white-btn a {
 }
 .cta-section > span {
   display: block;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* INIZIO MAIN */
@@ -336,7 +337,6 @@ div.orange-white-btn a {
   background-color: #00a8b9;
 }
 #learn-grow .top {
-  margin: 0 auto;
   padding: 30px;
   /* debug */
   /* background-color: red; */
@@ -354,7 +354,7 @@ div.orange-white-btn a {
 }
 
 #learn-grow-info {
-  margin: 30px 0;
+  padding: 40px;
   /* debug */
   /* height: 300px; */
   /* background-color: yellow; */
@@ -404,4 +404,12 @@ div.orange-white-btn a {
 .learn-grow-text > span:last-child {
   margin-top: 10px;
   font-size: 12px;
+}
+
+/* START GROWING - WOMAN */
+#start-growing-woman {
+
+  /* debug */
+  background-color: RED;
+  height: 400px;
 }
