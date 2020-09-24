@@ -491,7 +491,6 @@ div.orange-white-btn a {
 
 
 /* FOOTER */
-
 footer {
   background-color: #32495b;
 
@@ -513,7 +512,7 @@ footer {
 }
 footer h4 {
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 footer a {
   display: block;
@@ -528,12 +527,47 @@ footer ul li {
 .contact-btn {
   padding: 8px;
   width: 90%;
+  border-radius: 3px;
   /* debug */
   border: 1px solid black;
   background-color: #dbdfe1;
-  border-radius: 3px;
 }
 .contact-btn a {
   color: #334a5b;
   font-size: 15px;
+}
+#social-icon {
+  width: 90%;
+
+  /* debug */
+  /* background-color: red; */
+}
+#social-icon li {
+  margin: 5px 5px;
+  width: calc((100% / 5) - 10px);
+
+  /* debug */
+  /* background-color: green; */
+}
+footer ul .icon {
+  float: left;
+}
+footer span {
+  color: white;
+
+}
+#footer-languages {
+
+  /* debug */
+  background-color: red;
+}
+#footer-languages li {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+#footer-languages li a {
+
+  /* debug */
+  background-color: yellow
 }
