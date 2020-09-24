@@ -17,8 +17,9 @@ p, span{
   color: #334a5b;
 }
 hr {
-  border-bottom: 1px solid #33475B;
-
+  border-bottom: 5px solid #33475B;
+  border-top: none;
+  border-right: none;
 }
 .w80 {
   width: 70%;
@@ -135,10 +136,9 @@ div.orange-white-btn a {
   background-size: cover;
 }
 .header-jumbotron .cta-section {
-  min-width: 40%;
-  max-width: 40%;
+  width: 45%;
   position: relative;
-  top: 100px;
+  top: 60px;
 }
 .cta-section > h1 {
   font-size: 50px;
@@ -289,8 +289,8 @@ div.orange-white-btn a {
   /* background-color: blue; */
 }
 #crm-card .card:nth-child(2) {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 #crm-card .card .top,
 #crm-card .card .bottom {
@@ -301,14 +301,18 @@ div.orange-white-btn a {
   /* debug */
   /* background-color: yellow; */
 }
+#crm-card .card .top h2 {
+  margin-top: 30px;
+  /* debug */
+  /* background-color: yellow; */
+}
 .card-logo {
-  width: 30%;
+  width: 100px;
+  height: 100px;
   margin: 10px auto;
 }
 #crm-card .card .top img {
   max-width: 100%;
-}
-#crm-card .card .top p {
 }
 #crm-card .card hr {
   width: 60%;
@@ -316,6 +320,7 @@ div.orange-white-btn a {
 }
 #crm-card .bottom > h3 {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 #crm-card .bottom > span {
   display: block;
@@ -324,6 +329,8 @@ div.orange-white-btn a {
 #crm-card .bottom .orange-white-btn {
   margin: 40px auto 0;
 }
+
+/* LEARN AND GROW */
 #learn-grow {
   text-align: center;
   /* debug */
@@ -336,7 +343,7 @@ div.orange-white-btn a {
   /* debug */
   /* background-color: red; */
 }
-#learn-grow .top span {
+#learn-grow > .w80 > .top span {
   display: block;
   margin-bottom: 20px;
   font-size: 35px;
@@ -347,7 +354,41 @@ div.orange-white-btn a {
   color: #ffffff;
 }
 #learn-grow .bottom {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* debug */
-  background-color: blue;
+  /* height: 600px; */
+  /* background-color: blue; */
+}
+
+#learn-grow-info > .top > .info-box,
+#learn-grow-info > .bottom > .info-box {
+  float: left;
+  /* margin: 0 20px; */
+  /* padding: 30px; */
+  /* debug */
+  /* border-bottom: 2px solid black; */
+  border-right: 2px solid black;
+  width: calc((100% / 4));
+  /* background-color: yellow; */
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.info-text >* {
+  margin: 5px 0;
+
+}
+.info-text span i {
+  font-size: 34px;
+}
+.info-text h1 {
+  color: #ffffff;
+}
+.divider {
+  border-bottom: 2px solid black;
+  height: 100%;
 }
