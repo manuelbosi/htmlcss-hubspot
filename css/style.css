@@ -9,15 +9,16 @@ a {
   font-weight: bold;
   color: #334a5b;
 }
-h1, h2 {
+h1, h2, h3{
   font-family: 'Fjalla One', sans-serif;
   color: #334a5b;
 }
-p {
+p, span{
   color: #334a5b;
 }
-span {
-  color: #334a5b;
+hr {
+  border-bottom: 1px solid #33475B;
+
 }
 .w80 {
   width: 70%;
@@ -32,7 +33,14 @@ span {
   display: table;
   clear: both;
 }
-.orange-white-btn {
+a.orange-white-btn {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: #fe775a;
+  border: 2px solid #fe775a;
+}
+div.orange-white-btn a {
   padding: 10px;
   color: white;
   border-radius: 5px;
@@ -50,10 +58,12 @@ span {
   position: relative;
   background-color: white;
   border-radius: 5px;
-  margin: 50px 0;
+  margin: 30px 0;
   /* debug */
   /* height: 250px; */
 }
+
+
 /* STILE ICONE */
 .fa-angle-down, .fa-search, .fa-globe-americas {
   margin: 0 10px;
@@ -175,11 +185,12 @@ span {
   font-size: 30px;
 }
 #crm-section .top p {
-  width: 60%;
+  width: 95%;
   margin: 20px auto;
 }
 #crm-learn-more .white-box > div {
   float: left;
+
   /* debug */
   /* height: 200px; */
   /* background-color: purple; */
@@ -187,23 +198,24 @@ span {
 }
 #crm-learn-more .white-box .left {
   width: 30%;
-  position: relative;
-  text-align: center;
-  padding: 12%;
 
   /* debug */
   /* background-color: red; */
 }
 #crm-learn-more .content-left {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+  /* debug */
+  /* background-color: yellow; */
 }
 #crm-learn-more .content-left img {
   max-width: 100%;
-  margin-bottom: 20px;
+  width: 50%;
+
   /* debug */
   /* background-color: red; */
 }
@@ -215,6 +227,11 @@ span {
   /* debug */
   /* border: 1px solid black; */
 }
+#crm-learn-more .right,
+#crm-learn-more .left {
+  padding: 20px;
+  margin: 20px 0;
+}
 #crm-learn-more .right {
   width: 70%;
 
@@ -223,15 +240,15 @@ span {
   /* background-color: blue; */
 }
 #crm-learn-more .content-right  {
-  padding: 15px;
-  margin: 25px 0;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   /* debug */
-  /* border: 2px solid red; */
+  /* border: 2px solid yellow; */
 }
 #crm-learn-more .content-right h2,
 #crm-learn-more .content-right p,
-#crm-learn-more .content-right span,
+#crm-learn-more .content-right h3,
 #crm-learn-more .content-right div,
 #crm-learn-more .content-right hr {
   margin-bottom: 20px;
@@ -239,23 +256,19 @@ span {
 #crm-learn-more .content-right p {
   width: 90%;
 }
-#crm-learn-more .content-right span,
-#crm-learn-more .content-right hr {
-    display: inline-block;
+#crm-learn-more .content-right > span,
+#crm-learn-more .content-right > hr {
+  display: inline-block;
+
+  /* debug */
+  /* background-color: red;
+  border: 2px solid yellow; */
 }
 #crm-learn-more .content-right > span {
-  width: 25%;
-  font-size: 16px;
-  color: #33475B;
-  font-weight: bold;
-  text-transform: uppercase;
-
+  width: 30%;
 }
 #crm-learn-more .content-right hr {
-  width: 70%;
-  border-top: 2px solid #33475B;
-  color: #33475B;
-  margin: 0 auto;
+  width: 60%;
 }
 #feature-check span{
   margin-right: 20px;
@@ -263,31 +276,78 @@ span {
 
 /* CRM CARD */
 #crm-card {
-
+  display: flex;
+  justify-content: space-around;
   /* debug */
-  height: 700px;
-  background-color: purple;
+  /* height: 700px; */
+  /* background-color: purple; */
 }
 
 #crm-card .card {
-  float: left;
-  margin: 0 30px;
-  padding: 5px;
   text-align: center;
   /* debug */
-  width: calc((100% / 3) - 60px);
   /* background-color: blue; */
 }
+#crm-card .card:nth-child(2) {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#crm-card .card .top,
+#crm-card .card .bottom {
+  padding: 20px;
+}
 #crm-card .card .top {
-  margin: 0 auto;
+  width: 95%;
   /* debug */
   /* background-color: yellow; */
 }
 .card-logo {
   width: 30%;
-  margin: 20px auto;
-
+  margin: 10px auto;
 }
 #crm-card .card .top img {
   max-width: 100%;
+}
+#crm-card .card .top p {
+}
+#crm-card .card hr {
+  width: 60%;
+  margin: 0 auto;
+}
+#crm-card .bottom > h3 {
+  margin-bottom: 20px;
+}
+#crm-card .bottom > span {
+  display: block;
+  text-align: left;
+}
+#crm-card .bottom .orange-white-btn {
+  margin: 40px auto 0;
+}
+#learn-grow {
+  text-align: center;
+  /* debug */
+  height: 900px;
+  background-color: #00a8b9;
+}
+#learn-grow .top {
+  margin: 0 auto;
+  padding: 30px;
+  /* debug */
+  /* background-color: red; */
+}
+#learn-grow .top span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
+#learn-grow .top span,
+#learn-grow .top p {
+  color: #ffffff;
+}
+#learn-grow .bottom {
+  margin: 0 auto;
+  /* debug */
+  background-color: blue;
 }
