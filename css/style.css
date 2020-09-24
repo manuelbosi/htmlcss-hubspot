@@ -525,12 +525,12 @@ footer ul li {
   margin: 15px 0;
 }
 .contact-btn {
-  padding: 8px;
   width: 90%;
+  padding: 8px;
+  background-color: #dbdfe1;
   border-radius: 3px;
   /* debug */
-  border: 1px solid black;
-  background-color: #dbdfe1;
+  /* border: 1px solid black; */
 }
 .contact-btn a {
   color: #334a5b;
@@ -538,14 +538,12 @@ footer ul li {
 }
 #social-icon {
   width: 90%;
-
   /* debug */
   /* background-color: red; */
 }
 #social-icon li {
   margin: 5px 5px;
   width: calc((100% / 5) - 10px);
-
   /* debug */
   /* background-color: green; */
 }
@@ -554,20 +552,15 @@ footer ul .icon {
 }
 footer span {
   color: white;
-
 }
-#footer-languages {
-
-  /* debug */
-  background-color: red;
+#footer-languages ul {
+  text-align: center;
 }
 #footer-languages li {
   display: inline-block;
-  margin: 0 auto;
-  text-align: center;
+  margin: 30px 10px 20px;
 }
-#footer-languages li a {
-
-  /* debug */
-  background-color: yellow
+#footer-languages hr {
+  border-width: 1px;
+  border-color: white;
 }
