@@ -38,18 +38,24 @@ hr {
   clear: both;
 }
 a.orange-white-btn {
-  padding: 10px;
+  padding: 8px;
   color: white;
   border-radius: 5px;
   background-color: #fe775a;
   border: 2px solid #fe775a;
 }
 a.white-orange-btn {
-  background-color: ;
-  padding: 10px;
+  padding: 8px;
   border: 2px solid #fe775a;
   color: #fe775a;
   border-radius: 10px;
+}
+div.orange-white-btn {
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+  background-color: #fe775a;
+  border: 2px solid #fe775a;
 }
 /* .orange-white-btn a {
   padding: 10px;
@@ -108,43 +114,19 @@ a.white-orange-btn {
   text-align: right;
 }
 
-/* HEADER */
-/* .header-top {
-  height: 10vh;
-  background-color: #F4F9FD;
-  border-bottom: 1px solid #33475B;
-}
-.header-top > div {
-  line-height: 10vh;
-}
-.left-button{
-  float: left;
-}
-.right-button{
-  float: right;
-}
-
-.left-button ul li,
-.right-button ul li {
-  display: inline-block;
-  margin-right: 15px;
-} */
-
-
 /* LOGO - NAVBAR */
 #logo-navbar {
   height: 10vh;
-
   /* debug */
   /* background-color: white; */
 }
 #logo-navbar div {
   line-height: 10vh;
 }
-.logo {
+#logo-navbar .logo {
   float: left;
 }
-.logo > img {
+#logo-navbar .logo > img {
   vertical-align: middle;
 }
 #logo-navbar nav {
@@ -156,35 +138,32 @@ a.white-orange-btn {
 }
 
 /* JUMBOTRON */
-.header-jumbotron {
-  /* E' L'UNICO MODO DARE UN'ALTEZZA QUANDO SI HA IMG COME BG DI UN DIV???? */
-  height: 100vh;
-  position: relative;
+#jumbotron {
+  min-height: 100vh;
   background-image: url("../img/jumbotron.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
-.header-jumbotron .cta-section {
+#jumbotron-cta {
+  padding: 50px 0;
   width: 45%;
-  position: relative;
-  top: 60px;
-  left: 0;
+  /* debug */
+  border: 1px solid red;
 }
-.cta-section > h1 {
-  font-size: 50px;
+#jumbotron-cta h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  letter-spacing: 2px;
 }
-.cta-section > p {
-  margin: 25px auto 35px;
+#jumbotron-cta > * {
+  margin: 25px 0;
 }
-.cta-section > a {
-  text-align: center;
-  padding: 15px;
-}
-.cta-section > span {
+#jumbotron-cta span {
   display: block;
-  margin-top: 30px;
 }
+
 
 /* INIZIO MAIN */
 
