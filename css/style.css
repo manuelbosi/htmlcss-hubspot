@@ -52,10 +52,12 @@ a.white-orange-btn {
 }
 div.orange-white-btn {
   padding: 8px;
-  color: white;
   border-radius: 5px;
   background-color: #fe775a;
   border: 2px solid #fe775a;
+}
+div.orange-white-btn > a {
+  color: white;
 }
 /* .orange-white-btn a {
   padding: 10px;
@@ -232,8 +234,8 @@ div.orange-white-btn {
 
 #crm-learn-more .content-left a {
   display: block;
-  padding: 15px 25px;
-  font-size: 13px;
+  padding: 10px 20px;
+  font-size: 14px;
   /* debug */
   /* border: 1px solid black; */
 }
@@ -337,7 +339,11 @@ div.orange-white-btn {
   text-align: left;
 }
 #crm-card .bottom .orange-white-btn {
-  margin: 40px auto 0;
+  margin: 35px auto 5px;
+  padding: 15px 0 15px;
+  width: 50%;
+  font-size: 13px;
+
 }
 
 /* LEARN AND GROW */
@@ -423,9 +429,7 @@ div.orange-white-btn {
   /* height: 600px; */
 }
 #customers {
-  /* debug */
-  /* height: 300px; */
-  /* background-color: yellow; */
+  margin-bottom: 30px;
 }
 #customers-number, #customers-logo {
   float: left;
@@ -438,6 +442,9 @@ div.orange-white-btn {
   /* height: 100px; */
   /* background-color: purple; */
 }
+#customers-logo {
+  width: 70%;
+}
 #customers-number .text {
   width: 60%;
   margin: 0 auto;
@@ -449,28 +456,19 @@ div.orange-white-btn {
 #customers-number span {
   font-size: 14px;
 }
-#customers-logo {
-  width: 70%;
-  padding: 5px;
-  /* debug */
-  /* height: 100px; */
-  /* background-color: green; */
-}
 #customers-logo .row {
-  margin: 10px auto;
-  width: 80%;
+  margin: 20px 0 0;
 }
 #customers-logo .logo {
-  width: calc((100% / 4) - 20px) ;
   display: inline-block;
-  margin: 10px 10px;
-  /* debug */
-  /* background-color: red; */
+  margin: 0 5px;
+  width: calc((100% / 4) - 13px);
+  text-align: center;
 }
-#customers-logo .logo > img {
-  width: 100%;
+#customers-logo .logo img {
+  width: 70%;
+  vertical-align: middle;
 }
-
 #start-growing-woman {
   /* background-color: green; */
 }
@@ -484,11 +482,19 @@ div.orange-white-btn {
   width: 40%;
 }
 #start-growing-woman .cta-section h1 {
-  font-size: 30px;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+#start-growing-woman .cta-section p {
+  margin: 30px 0;
 }
 #start-growing-woman .cta-section a {
   font-size: 12px;
-  padding: 10px 20px;
+  padding: 15px 30px;
+}
+#start-growing-woman .cta-section span {
+  display: block;
+  margin-top: 30px;
 }
 #start-growing-woman .woman {
   width: 60%;
