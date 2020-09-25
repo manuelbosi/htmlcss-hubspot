@@ -167,14 +167,41 @@ div.orange-white-btn {
 
 /* INIZIO MAIN */
 
+/* non considerare sto sistemando */
+/* #crm {
+  background-color: #f4f9fd;
+}
+#crm .w80 {
+  margin: 30px auto;
+  text-align: center;
+  padding: 5px 0 20px;
+  debug
+  background-color: green;
+}
+#crm .top .logo {
+  width: 25%;
+  margin: 10px auto 20px;
+}
+#crm .top .logo img {
+  max-width: 100%;
+}
+#crm .top h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+#crm .top p {
+  width: 80%;
+  margin: auto;
+} */
+
 /* CRM SECTION */
 #crm-section {
   background-color: #f4f9fd;
+  min-height: 600px;
 }
 #crm-section .w80 {
 
   /* debug */
-  min-height: 1000px;
   /* background-color: red; */
 }
 #crm-section section {
