@@ -132,13 +132,13 @@ a.white-orange-btn {
 
 
 /* LOGO - NAVBAR */
-.logo-navbar {
+#logo-navbar {
   height: 10vh;
 
   /* debug */
   /* background-color: white; */
 }
-.logo-navbar div {
+#logo-navbar div {
   line-height: 10vh;
 }
 .logo {
@@ -147,10 +147,10 @@ a.white-orange-btn {
 .logo > img {
   vertical-align: middle;
 }
-.logo-navbar nav {
+#logo-navbar nav {
   float: right;
 }
-.logo-navbar nav ul li {
+#logo-navbar nav ul li {
   display: inline-block;
   margin-right: 15px;
 }
